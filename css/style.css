@@ -91,7 +91,7 @@ main{
     padding: 50px;
 }
 
-.article:nth-child(even){
+.divCartes > .article:nth-child(odd){
     grid-template-columns: 2fr 1fr;
 }
 
