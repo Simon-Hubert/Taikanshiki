@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Taikanshiki</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <a href="#Regles"><li>Les Règles</li></a>
+            <a href="#Cartes"><li>Les Cartes</li></a>
+            <a href="#Personnages"><li> Les Personnages</li></a>
+            <a href="#Roles"><li>Les Rôles</li></a>
+            <a href="#Dieux"><li>Les Dieux</li></a>
+            <a href="#Palliers"><li>Palliers</li></a>
+        </ul>
+    </nav>
+    <main>
+        <p id="TextIntro">
+            L’empereur est mort ! Tout le Japon féodal est en deuil. Heureusement, le défunt empereur a
+            laissé derrière lui une descendance. Son héritier direct sera couronné dans 7 jours. Cependant, ses
+            frères cherchent à tout prix à s’emparer de la couronne. Et le Daimyo tente un coup d’état.
+            Entre coopération et trahison, conspiration et complot, qui survivra à la cérémonie de
+            couronnement du nouvel empereur du Soleil Levant ?
+        </p>
+
+        <h1 id="Regles">Les Règles</h1>
+        <div class="divCartes">
+            <div id="idRegles">
+                <p>
+                    Taikanshiki est un jeu ou chaque joueur à son propre but.
+                </p>
+                <h2>Mise en place</h2>
+                <p>
+                    Le plateau est placé au centre de la table et cache joueur reçois une carte personnage et une carte role
+                    qu'il garde pour lui.
+                    Puis le joueur ayant la carte Rôle Héritier se révèle et positionne sa carte Personnage face visible
+                    sur l’espace au centre du plateau. Les autres joueurs placent alors leur carte Personnage face visible sur
+                    les espaces restants. Sans révéler leur rôles.</br>
+                    On place le pion courronement au debut de son parcours.
+                </p>
+                <h2>Deroulement de la partie</h2>
+                <p>
+                    Les joueurs jouent chacun leur tour en terminant par l'Heritier et en commençant par le joueur positionné sur
+                    hachiman, puis en tournant dans le sens horaire.
+                </p>
+                <p>
+                    Durant son tour, un joueur peut poser autant de cartes Action que possible dans la limite de ses
+                    points d’Action en attendant la résolution du tour.
+                </p>
+                <h2>Resolution d'un tour</h2>
+                <p>
+                    Lorsque l’Héritier a joué, le tour se résout et l’effet des cartes Action s’active en
+                    commençant par celles de l’Héritier ensuite dans le sens anti-horaire. C’est aussi à 
+                    ce moment que les joueurs choisissent l’emplacement de leurs murailles.</br>
+                    Après la résolution, les cartes personnages tournent sur le plateau, Hachiman -> Saruta-Hiko ->
+                    Tsukuyomi -> Amaterasu -> Hachiman. Et le pion couronnement avance.
+                </p>
+                <h2>Fin du jeu</h2>
+                <p>
+                    Le jeu se termine au bout de 7 tours de jeu, lorsque le pion couronnement atteint la fin du plateau. On
+                    regarde alors quels Rôles sont encore en vie pour déterminer qui a gagné :
+                    <ul>
+                        <li>Si l’Héritier est vivant, l’Héritier et le Shogun gagnent.</li>
+                        <li>Si l’Héritier est mort, le prétendant gagne.</li>
+                        <li>Si le Daimyo est le seul survivant, il gagne.</li>
+                    </ul>
+                </p>
+                <img src="images/plateau.png" style="width: 100%;" alt="">
+            </div>
+        </div>
+
+
+        <h1 id="Personnages">Les Personnages</h1>
+        <div class="divCartes">
+            <div>
+                <img src="images/ExemplePersonnages.png" alt="">
+            </div>
+            <div class="gallery">
+                <div class="item" style="background-image: url('../images/Garde.jpg');">
+                    <div class="contenuCarte">text</div></div>
+                <div class="item" style="background-image: url('../images/Marchand.jpg');">
+                    <div class="contenuCarte">text</div></div>
+                <div class="item" style="background-image: url('../images/Ninja.jpg');">
+                    <div class="contenuCarte">text</div></div>
+                <div class="item" style="background-image: url('../images/Ronin.jpg');">
+                    <div class="contenuCarte">text</div></div>
+                <div class="item" style="background-image: url('../images/Samurai.jpg');">
+                    <div class="contenuCarte">text</div></div>
+            </div>
+        </div>
+
+        <h1 id="Roles">Les Rôles</h1>
+        <div class="gallery">
+            <div class="item" style="background-image: url('../images/Heritier.jpg');">
+                <div class="contenuCarte">text</div></div>
+            <div class="item" style="background-image: url('../images/Pretendant.jpg');">
+                <div class="contenuCarte">text</div></div>
+            <div class="item" style="background-image: url('../images/Daimyo.jpg');">
+                <div class="contenuCarte">text</div></div>
+            <div class="item" style="background-image: url('../images/Shogun.jpg');">
+                <div class="contenuCarte">text</div></div>
+        </div>
+
+        <h1 id="Dieux">Les Dieux</h1>
+        <div class="gallery">
+            <div class="item" style="background-image: url('../images/Hachiman.jpg');">
+                <div class="contenuCarte">text</div></div>
+            <div class="item" style="background-image: url('../images/Amaterasu.jpg');">
+                <div class="contenuCarte">text</div></div>
+            <div class="item" style="background-image: url('../images/Saruta_Hito.jpg');">
+                <div class="contenuCarte">text</div></div>
+            <div class="item" style="background-image: url('../images/Tsukuyomi.jpg');">
+                <div class="contenuCarte">text</div></div>
+        </div>
+
+        <h1 id="Cartes">Les Cartes</h1>
+        <div class="divCartes">
+            <img src="images/ExempleAttaque.png" alt="">
+            <div class="article">
+                <div>
+                    <img class="carte" src="images/attaqueDroite.jpg" alt="">
+                    <img class="carte" src="images/attaqueGauche.jpg" alt="">
+                </div>
+                <div><h2>Attaques</h2></div>
+            </div>
+            <div class="article">
+                <div><h2>Muraille</h2></div>
+                <img class="carte" src="images/muraille.jpg" alt="">
+            </div>
+            <div class="article">
+                <img class="carte" src="images/pioche.jpg" alt="">
+                <div><h2>Pioche</h2></div>
+            </div>
+            <div class="article">
+                <div><h2>PA supplémentaires</h2></div>
+                <img class="carte" src="images/paSupp.jpg" alt="">
+            </div>
+            <div class="article">
+                <img class="carte" src="images/atkSupp.jpg" alt="">
+                <div><h2>Atk supplémentaire</h2></div>
+            </div>
+            <div class="article">
+                <div><h2>Oni</h2></div>
+                <img class="carte" src="images/oni.jpg" alt="">
+            </div>
+        </div>
+
+        <h1 id="Palliers">Palliers</h1>
+        <div class="divCartes">
+            <div class="article">
+                <img class="" src="" alt="">
+                <div><h2>Pallier 1</h2></div>
+            </div>
+            <div class="article">
+                <div><h2>Pallier 2</h2></div>
+                <img class="" src="" alt="">
+            </div>
+        </div>
+        
+    </main>
+    <footer>
+
+    </footer>
+    <script src="JavaScript/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,176 @@
+/* CSS HEX
+--lilac: #C6ACD6ff;
+--russian-violet: #321443ff;
+--pomp-and-power: #766398ff;
+--russian-violet-2: #34294Eff;
+--dark-purple: #2C0D27ff;
+--garnet: #73282Aff;
+--white: #FFFFFFff;
+*/
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(255, 248, 236) ;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 50px;
+    color: #C6ACD6ff;
+}
+h2{
+    text-align: center;
+    color: #321443ff;
+}
+
+nav a{
+    margin: 0;
+    text-decoration: none;
+    color: #C6ACD6ff;
+}   
+
+nav{
+    margin-top: 10px;
+    font-size: 24px;
+    text-align: center;
+    gap: 60px;
+    padding-bottom: 30px;
+}
+
+nav ul{
+    width: 100%;
+    align-items: center;
+    display: flex; 
+    list-style: none;
+}
+nav ul a{
+    flex:auto;
+    padding: 20px;
+    border: solid;
+    border-left: none;
+    border-width: 3px;
+    border-color: #C6ACD6ff;
+    transition: 500ms;  
+}
+
+nav a:hover{
+    background-color:#766398ff;
+}
+
+nav ul a:first-child{
+    flex:auto;
+    padding: 20px;
+    border: solid;
+    border-width: 3px;
+    border-color:#C6ACD6ff;    
+}
+
+main{
+    width: 100%;
+}
+
+.divCartes{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.article{
+    width: 80vw;
+    display: grid;
+    text-align: center;
+    grid-template-columns: 1fr 2fr;
+    background-color: #C6ACD6ff;
+    margin-bottom: 50px;
+    padding: 50px;
+}
+
+.article:nth-child(even){
+    grid-template-columns: 2fr 1fr;
+}
+
+.carte{
+    width: 150px;
+    transition: 0.3s ease; ;
+}
+
+.carte:hover{
+    scale: 1.5;
+}
+
+.gallery{
+    display: flex;
+    width: 100%;
+    height: 90vh;
+    background-color: black;
+    margin-bottom: 150px;
+}
+
+.gallery .item{
+    flex: 1;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+    text-align: center;
+    transition: flex 0.8s ease;
+    opacity: 1;
+}
+
+.gallery .item:hover{
+    position: relative;
+    flex: 2;
+}
+
+.gallery .item:hover::before{
+    content:'';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black ;
+    flex: 3;
+    opacity: 0.4;
+    z-index: 0;
+}
+
+.item .contenuCarte{
+    position: relative;
+    color:yellow;
+    transition: flex 0.8s ease;
+    padding: auto;
+    opacity: 0;
+    z-index: 1;
+}
+
+.item:hover .contenuCarte{
+    opacity: 1;
+}
+
+#TextIntro{
+    color: #C6ACD6ff;
+    margin-bottom: 50px;
+}
+
+#idRegles{
+    width: 80vw;
+    text-align: center;
+    background-color: #C6ACD6ff;
+    margin-bottom: 50px;
+    padding: 50px;
+}
+
+#idRegles ul{
+    list-style: none;
+}
+
+#idRegles p{
+    margin: 10px 30px;
+}
