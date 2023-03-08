@@ -174,3 +174,43 @@ main{
 #idRegles p{
     margin: 10px 30px;
 }
+
+#Guard{
+    background-image: url(../images/Garde.jpg);
+}
+#Marchand{
+    background-image: url(../images/Marchand.jpg);
+}
+#Ninja{
+    background-image: url(../images/Ninja.jpg);
+}
+#Ronin{
+    background-image: url(../images/Ronin.jpg);
+}
+#Samurai{
+    background-image: url(../images/Samurai.jpg);
+}
+#Heritier{
+    background-image: url(../images/Heritier.jpg);
+}
+#Pretendant{
+    background-image: url(../images/Pretendant.jpg);
+}
+#Daimyo{
+    background-image: url(../images/Daimyo.jpg);
+}
+#Shogun{
+    background-image: url(../images/Shogun.jpg);
+}
+#Hachiman{
+    background-image: url(../images/Hachiman.jpg);
+}
+#Amaterasu{
+    background-image: url(../images/Amaterasu.jpg);
+}
+#SarutaHito{
+    background-image: url(../images/Saruta_Hito.jpg);
+}
+#Tsukuyomi{
+    background-image: url(../images/Tsukuyomi.jpg);
+}
