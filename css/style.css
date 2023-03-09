@@ -15,7 +15,13 @@
 }
 
 body{
+    font-family: 'Roboto';
     background-color: rgb(255, 248, 236) ;
+}
+
+p{
+    color: #321443ff;
+    
 }
 
 h1{
@@ -25,6 +31,7 @@ h1{
 }
 h2{
     text-align: center;
+    margin-bottom: 10px;
     color: #321443ff;
 }
 
@@ -91,6 +98,10 @@ main{
     padding: 50px;
 }
 
+.article p{
+    margin: 50px;
+}
+
 .divCartes > .article:nth-child(odd){
     grid-template-columns: 2fr 1fr;
 }
@@ -150,12 +161,54 @@ main{
     z-index: 1;
 }
 
+.contenuCarte *{
+    color:white;
+}
+
+.contenuCarte p{
+    margin: 20px;
+}
+
+.contenuCarte h2{
+    margin-top: 100px;
+}
+
 .item:hover .contenuCarte{
     opacity: 1;
 }
 
+.conteneur-bouton{
+    width: 100%;
+    text-align: center;
+}
+
+.bouton{
+    width: 150px;
+    margin-top:20px;
+    padding:10px 20px;
+    color:rgb(255, 248, 236);
+    background-color: #34294Eff;
+    border: solid;
+    border-color: #766398ff;
+    border-width: 2px;
+    border-radius: 5px;
+    transition: 500ms;
+}
+
+.bouton:hover{
+    background-color: rgb(255, 248, 236);
+    color:#34294Eff;
+}
+
+.prix{
+    font-size: 6em;
+}
+
 #TextIntro{
-    color: #C6ACD6ff;
+    text-align: justify;
+    width: 80%;
+    font-weight: bold;
+    color: #766398ff;
     margin-bottom: 50px;
 }
 
@@ -169,10 +222,15 @@ main{
 
 #idRegles ul{
     list-style: none;
+    color :rgb(88, 73, 113);
 }
 
 #idRegles p{
     margin: 10px 30px;
+    color :rgb(88, 73, 113);
+}
+#idRegles h2{
+    color :rgb(88, 73, 113);
 }
 
 #Guard{

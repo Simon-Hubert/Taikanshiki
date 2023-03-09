@@ -19,13 +19,15 @@
         </ul>
     </nav>
     <main>
-        <p id="TextIntro">
-            L’empereur est mort ! Tout le Japon féodal est en deuil. Heureusement, le défunt empereur a
-            laissé derrière lui une descendance. Son héritier direct sera couronné dans 7 jours. Cependant, ses
-            frères cherchent à tout prix à s’emparer de la couronne. Et le Daimyo tente un coup d’état.
-            Entre coopération et trahison, conspiration et complot, qui survivra à la cérémonie de
-            couronnement du nouvel empereur du Soleil Levant ?
-        </p>
+        <div style="width:100%; display: flex; justify-content: center;">
+            <p id="TextIntro">
+                L’empereur est mort ! Tout le Japon féodal est en deuil. Heureusement, le défunt empereur a
+                laissé derrière lui une descendance. Son héritier direct sera couronné dans 7 jours. Cependant, ses
+                frères cherchent à tout prix à s’emparer de la couronne. Et le Daimyo tente un coup d’état.
+                Entre coopération et trahison, conspiration et complot, qui survivra à la cérémonie de
+                couronnement du nouvel empereur du Soleil Levant ?
+            </p>
+        </div>
 
         <h1 id="Regles">Les Règles</h1>
         <div class="divCartes">
@@ -81,40 +83,107 @@
             </div>
             <div class="gallery">
                 <div class="item" id="Guard">
-                    <div class="contenuCarte">text</div></div>
+                    <div class="contenuCarte">
+                        <h2>Guarde</h2>
+                        <p>Le guarde est entrainé à recevoir des coups, il à donc plus de 
+                            points de vie que les autres personnages
+                        </p>
+                    </div></div>
                 <div class="item" id="Marchand">
-                    <div class="contenuCarte">text</div></div>
+                    <div class="contenuCarte">
+                        <h2>Marchand</h2>
+                        <p>Le marchand est un maître de l'éloquence, il peux forcer une fois par tour un autre joueur à
+                            échanger une carte avec lui.
+                        </p>
+                    </div></div>
                 <div class="item" id="Ninja">
-                    <div class="contenuCarte">text</div></div>
+                    <div class="contenuCarte">
+                        <h2>Ninja</h2>
+                        <p>Le ninja est un maître de la discrétion, il joue ses cartes face cachée et joue en dernier 
+                            lors de la résolution.
+                        </p>
+                    </div></div>
                 <div class="item" id="Ronin">
-                    <div class="contenuCarte">text</div></div>
+                    <div class="contenuCarte">
+                        <h2>Ronin</h2>
+                        <p>Le Ronin à passé beaucoup de temps sur les routes, il possède un point d'action supplémentaire</p>
+                    </div></div>
                 <div class="item" id="Samurai">
-                    <div class="contenuCarte">text</div></div>
+                    <div class="contenuCarte">
+                        <h2>Samurai</h2>
+                        <p>Le Samurai à perfectionné sa technique de combat, il possède un point d'attaque de plus.</p>
+                    </div></div>
             </div>
         </div>
 
         <h1 id="Roles">Les Rôles</h1>
         <div class="gallery">
             <div class="item" id="Heritier">
-                <div class="contenuCarte">text</div></div>
+                <div class="contenuCarte">
+                    <h2>Héritier</h2>
+                    <p>L'Héritier est le successeur direct de l'empereur, encore faut-il qu'il survive jusqu'à son 
+                        courronement.
+                    </p>
+                    <p>Le but de l'héritier est de survivre les 7 tours de jeu</p>
+                </div></div>
             <div class="item" id="Pretendant"">
-                <div class="contenuCarte">text</div></div>
+                <div class="contenuCarte">
+                    <h2>Prétendant</h2>
+                    <p>Frère ou Soeur de l'héritier, le prétendant cherche à s'emparer du pouvoir avant son frère.</p>
+                    <p>Le but du prétendant est de tuer l'héritier.</p>
+                </div></div>
             <div class="item" id="Daimyo">
-                <div class="contenuCarte">text</div></div>
+                <div class="contenuCarte">
+                    <h2>Daimyo</h2>
+                    <p>Le Daimyo est un gouverneur, il cherche à prendre le pouvoir en faisant un coup d'etat.</p>
+                    <p>Le but du Daimyo est de tuer tout ses opposants.</p>
+                </div></div>
             <div class="item" id="Shogun">
-                <div class="contenuCarte">text</div></div>
+                <div class="contenuCarte">
+                    <h2>Shogun</h2>
+                    <p>Le Shogun est resté fidèle a l'empereur et sa lignée.</p>
+                    <p>Son but est de protéger l'Héritier à tout prix.</p>
+                </div></div>
         </div>
 
         <h1 id="Dieux">Les Dieux</h1>
         <div class="gallery">
             <div class="item" id="Hachiman">
-                <div class="contenuCarte">text</div></div>
+                <div class="contenuCarte">
+                    <h2>Hachiman</h2>
+                    <p>
+                        Hachiman est le dieu shinto de la guerre et
+                        le protecteur divin du Japon et du peuple japonais.
+                    </p>
+                    <p>
+                        Le Personnage posé sur cette case à un point d'attaque supplémentaire.
+                    </p>
+                </div>
+            </div>
             <div class="item" id="Amaterasu">
-                <div class="contenuCarte">text</div></div>
+                <div class="contenuCarte">
+                    <h2>Amaterasu</h2>
+                    <p>Amaterasu est la plus haute divinité de la mythologie japonaise. Elle est 
+                        également la déesse du soleil.
+                    </p>
+                    <p>Le personnage posé sur cette case peux attaquer n'importe où avec n'importe quelle
+                        carte d'attaque.
+                    </p>
+                </div></div>
             <div class="item" id="SarutaHito">
-                <div class="contenuCarte">text</div></div>
+                <div class="contenuCarte">
+                    <h2>Saruta-Hito</h2>
+                    <p>Saruta-Hito est une Divinité protectrice très puissant. Il est également dieux de la terre.</p>
+                    <p>Les murailles adjacentes à cette case peuvent encaisser 2 attaques.</p>
+                </div></div>
             <div class="item" id="Tsukuyomi">
-                <div class="contenuCarte">text</div></div>
+                <div class="contenuCarte">
+                    <h2>Tsukuyomi</h2>
+                    <p>Tsukuyomi est dieu de la Lune et de la nuit dans le shintoïsme.</p>
+                    <p>Lorsqu'il arrive sur cette case, un personnage restaure un point de vie. (Ne peut pas dépasser
+                        le maximum inscrit sur la carte.)
+                    </p>
+                </div></div>
         </div>
 
         <h1 id="Cartes">Les Cartes</h1>
@@ -125,26 +194,62 @@
                     <img class="carte" src="images/attaqueDroite.jpg" alt="">
                     <img class="carte" src="images/attaqueGauche.jpg" alt="">
                 </div>
-                <div><h2>Attaques</h2></div>
+                <div>
+                    <h2>Attaques</h2>
+                    <p>
+                        Lance une attaque suivant la direction indiquée.</br>
+                        La couleur de la carte correspond à la couleur de la flèche d'attaque.
+                    </p>
+                </div>
             </div>
             <div class="article">
-                <div><h2>Muraille</h2></div>
+                <div>
+                    <h2>Muraille</h2>
+                    <p>
+                        Est placée sur une case Muraille.</br>
+                        Protège d'une attaque avant d'être détruite.
+                    </p>
+                </div>
                 <img class="carte" src="images/muraille.jpg" alt="">
             </div>
             <div class="article">
                 <img class="carte" src="images/pioche.jpg" alt="">
-                <div><h2>Pioche</h2></div>
+                <div>
+                    <h2>Pioche</h2>
+                    <p>
+                        Piochez 2 cartes.
+                    </p>
+                </div>
             </div>
             <div class="article">
-                <div><h2>PA supplémentaires</h2></div>
+                <div>
+                    <h2>PA supplémentaires</h2>
+                    <p>
+                        Donne un point d'action supplémentaire.
+                    </p>
+                </div>
                 <img class="carte" src="images/paSupp.jpg" alt="">
             </div>
             <div class="article">
                 <img class="carte" src="images/atkSupp.jpg" alt="">
-                <div><h2>Atk supplémentaire</h2></div>
+                <div>
+                    <h2>Atk supplémentaire</h2>
+                    <p>
+                        Donne un point d'attaque supplémentaire.
+                    </p>
+                </div>
             </div>
             <div class="article">
-                <div><h2>Oni</h2></div>
+                <div>
+                    <h2>Oni</h2>
+                    <p>
+                        Inflige 1 point de dégat à chaque
+                        personnage ciblable par une
+                        attaque.</br> Remplace le dieu
+                        sur lequel le personnage
+                        est placé.
+                    </p>
+                </div>
                 <img class="carte" src="images/oni.jpg" alt="">
             </div>
         </div>
@@ -152,15 +257,43 @@
         <h1 id="Palliers">Palliers</h1>
         <div class="divCartes">
             <div class="article">
-                <img class="" src="" alt="">
-                <div><h2>Pallier 1</h2></div>
+                <div><h2>Une carte illustrée du jeu.</h2>
+                    <img src="images/Garde.jpg" style="width:100px;" alt="">
+                    <div class="conteneur-bouton">
+                        <button class="bouton">J'y vais</button>
+                    </div></div>
+                <div><h2>Pallier 1</h2>
+                <p class="prix">5€</p></div>
             </div>
             <div class="article">
-                <div><h2>Pallier 2</h2></div>
-                <img class="" src="" alt="">
+                <div><h2>Pallier 2</h2>
+                <p class="prix">10€</p></div>
+                <div><h2>Toutes les cartes illustrées du jeu.</h2>
+                    <img src="images/Samurai.jpg" style="width:100px;" alt="">
+                    <div class="conteneur-bouton">
+                        <button class="bouton">J'y vais</button>
+                    </div></div>
+            </div>
+            <div class="article">
+                <div><h2>Le jeu complet lors de sa sortie</h2>
+                    <img src="images/boite_jeu.png" style="width:400px;" alt="">
+                    <div class="conteneur-bouton">
+                        <button class="bouton">J'y vais</button>
+                    </div>
+                </div>
+                <div><h2>Pallier 3</h2>
+                <p class="prix">40€</p></div>
+            </div>
+            <div class="article">
+                <div><h2>Pallier 4</h2>
+                <p class="prix">50€</p></div>
+                <div><h2>Une edition collector du jeu lors de sa sortie. Avec cartes holographiques.</h2>
+                    <img src="images/boite_jeu.png" style="width:400px;" alt="">
+                    <div class="conteneur-bouton">
+                        <button class="bouton">J'y vais</button>
+                    </div></div>
             </div>
         </div>
-        
     </main>
     <footer>
 
